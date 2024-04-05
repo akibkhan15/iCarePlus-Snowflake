@@ -1,7 +1,7 @@
 name: Snowflake-Schema-Change
 
 on:
-  push:
+  pull_request:
     branches:
       - MASTER
       - TEST_R1
